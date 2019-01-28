@@ -186,6 +186,7 @@ class Resque
                 'class' => $class,
                 'args'  => $args,
                 'queue' => $queue,
+                'job'   => $result,
             ]);
         }
 
